@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitten Heaven | Animal Rescue & Shelter in Bangladesh</title>
+  <meta name="description"
+    content="Kitten Heaven rescues, treats, shelters and finds homes for vulnerable cats while feeding street cats and dogs in Bangladesh.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Kitten Heaven - Rescue. Heal. Feed. Love.">
+  <meta property="og:description"
+    content="Bangladesh-based non-profit animal rescue and shelter organization providing emergency medical care, shelter, adoption, and street animal feeding.">
+  <meta property="og:image" content="images/hero_cat.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="header-sticky" id="mainHeader">
+    <div class="container header-container">
+      <a href="#home" class="logo-group" data-view-link="home" title="Kitten Heaven">
+        <img src="images/Kitten Heaven Logo.png" alt="Kitten Heaven Logo" class="header-logo-img" />
+      </a>
+
+      <!-- Desktop Navigation - Streamlined Clean Single Row -->
+      <nav class="nav-desktop">
+        <a href="#home" class="nav-link active" data-view-link="home">Home</a>
+        <a href="#rescue-stories" class="nav-link" data-view-link="rescue-stories">Rescue Stories</a>
+        <a href="#our-work" class="nav-link" data-view-link="our-work">Our Work</a>
+        <a href="#adopt-foster" class="nav-link" data-view-link="adopt-foster">Adopt & Foster</a>
+        <a href="#volunteer" class="nav-link" data-view-link="volunteer">Volunteer</a>
+        <a href="#about" class="nav-link" data-view-link="about">About Us</a>
+        <a href="#contact" class="nav-link" data-view-link="contact">Contact</a>
+      </nav>
+
+      <!-- Header Right Action -->
+      <div class="header-right">
+        <div class="header-social-links">
+          <a href="https://www.facebook.com/p/Kitten-Heaven-100079653400951/" target="_blank" rel="noopener" class="header-social-icon facebook" aria-label="Facebook Page" title="Facebook Page">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@kittenheavenbd" target="_blank" rel="noopener" class="header-social-icon youtube" aria-label="YouTube Channel" title="YouTube Channel">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+        <a href="#donate" class="btn btn-primary" data-view-link="donate" id="headerDonateBtn">DONATE NOW</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          &#9776;
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <a href="#home" class="logo-group" data-view-link="home" title="Kitten Heaven">
+        <img src="images/Kitten Heaven Logo.png" alt="Kitten Heaven Logo" class="header-logo-img"
+          style="height:68px;" />
+      </a>
+      <button class="drawer-close" id="drawerCloseBtn">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link" data-view-link="home">Home</a>
+      <a href="#rescue-stories" class="mobile-nav-link" data-view-link="rescue-stories">Rescue Stories</a>
+      <a href="#our-work" class="mobile-nav-link" data-view-link="our-work">Our Work</a>
+      <a href="#adopt-foster" class="mobile-nav-link" data-view-link="adopt-foster">Adopt & Foster</a>
+      <a href="#volunteer" class="mobile-nav-link" data-view-link="volunteer">Volunteer & Jobs</a>
+      <a href="#shelter" class="mobile-nav-link" data-view-link="shelter">Our Shelter</a>
+      <a href="#about" class="mobile-nav-link" data-view-link="about">About Us</a>
+      <a href="#gallery" class="mobile-nav-link" data-view-link="gallery">Gallery</a>
+      <a href="#videos" class="mobile-nav-link" data-view-link="videos">Videos</a>
+      <a href="#contact" class="mobile-nav-link" data-view-link="contact">Contact</a>
+    </nav>
+    <div style="margin-top:auto;">
+      <a href="#donate" class="btn btn-primary btn-full" data-view-link="donate">DONATE NOW</a>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT CONTAINER WITH VIEW SECTIONS -->
+  <main id="mainContainer">
+
+    <!-- VIEW 1: HOME PAGE -->
+    <div id="view-home" class="view-section active-view">
+
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="hero-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              </svg>
+              Animal Rescue & Shelter · Bangladesh
+            </span>
+            <h1 class="hero-title">Every Cat Deserves a Second Chance.</h1>
+            <p class="hero-description">
+              We rescue, treat, shelter and care for cats in need — while feeding vulnerable street cats and dogs in our
+              community.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#donate" class="btn btn-primary" data-view-link="donate">DONATE NOW</a>
+              <a href="#rescue-stories" class="btn btn-secondary" data-view-link="rescue-stories">SEE RESCUE STORIES</a>
+            </div>
+          </div>
+          <div class="hero-image-wrap">
+            <img src="images/hero_cat.jpg" alt="Rescued Kitten Care" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- IMPACT STATISTICS SECTION -->
+      <section class="impact-section">
+        <div class="container">
+          <div class="impact-grid" id="impactStatsGrid">
+            <!-- Rendered dynamically from config.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR WORK SECTION -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Rescue. Care. Compassion.</span>
+            <h2 class="section-title">Our Work</h2>
+            <p class="section-description">Dedicated to protecting vulnerable animals and helping them heal.</p>
+          </div>
+          <div class="work-grid">
+            <div class="work-card">
+              <div class="work-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s-8-4.5-8-11.8A7 7 0 0 1 12 3a7 7 0 0 1 8 7.2c0 7.3-8 11.8-8 11.8z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <h3 class="work-card-title">Rescue & Treatment</h3>
+              <p class="work-card-desc">We rescue sick, injured and abandoned cats and provide the care they need.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                  <polyline points="9 22 9 12 15 12 15 22" />
+                </svg>
+              </div>
+              <h3 class="work-card-title">Shelter & Care</h3>
+              <p class="work-card-desc">We provide rescued cats with a safe shelter, food and daily care.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M8 12h8" />
+                  <path d="M12 8v8" />
+                </svg>
+              </div>
+              <h3 class="work-card-title">Street Feeding</h3>
+              <p class="work-card-desc">We regularly provide food to vulnerable street cats and dogs.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                </svg>
+              </div>
+              <h3 class="work-card-title">Foster & Adoption</h3>
+              <p class="work-card-desc">We provide foster care and help rescued cats find loving homes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LATEST RESCUE STORIES -->
+      <section class="section-padding" style="background: var(--bg-secondary);">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Transformation & Healing</span>
+            <h2 class="section-title">Latest Rescue Stories</h2>
+            <p class="section-description">Every rescue has a story. Every recovery is a second chance.</p>
+          </div>
+          <div class="stories-grid" id="homeRescueStoriesGrid">
+            <!-- Rendered dynamically from config.js -->
+          </div>
+          <div style="text-align: center;">
+            <a href="#rescue-stories" class="btn btn-secondary" data-view-link="rescue-stories">VIEW ALL STORIES →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- STREET FEEDING SECTION -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Community Outreach</span>
+            <h2 class="section-title">Street Feeding</h2>
+            <p class="section-description">A hungry animal should not have to wonder where its next meal will come from.
+            </p>
+          </div>
+          <div class="feeding-grid" id="streetFeedingGrid">
+            <!-- Rendered dynamically from config.js -->
+          </div>
+          <div style="text-align: center;">
+            <a href="#street-feeding" class="btn btn-secondary" data-view-link="street-feeding">VIEW STREET FEEDING
+              →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DONATION CTA BANNER -->
+      <section class="donation-banner-section container">
+        <div class="donation-banner-card">
+          <div class="banner-content">
+            <h2>Help Us Give Them Another Chance.</h2>
+            <p>Your support helps us continue rescuing and caring for animals who have nowhere else to turn.</p>
+            <a href="#donate" class="btn btn-primary" data-view-link="donate">DONATE NOW</a>
+          </div>
+          <div class="banner-img-wrap">
+            <img src="images/hero_cat.jpg" alt="Support Rescue Animals" class="banner-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- FOLLOW US SECTION -->
+      <section class="section-padding" style="background: var(--bg-secondary);">
+        <div class="container text-center" style="text-align:center; max-width:700px;">
+          <span class="section-subtitle">Stay Connected</span>
+          <h2 class="section-title">Follow Our Rescue Journey</h2>
+          <p class="section-description" style="margin-bottom: 2rem;">
+            Watch real-time rescue videos, daily shelter updates, and street feeding highlights on our official
+            channels.
+          </p>
+          <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+            <a href="https://www.facebook.com/p/Kitten-Heaven-100079653400951/" target="_blank" rel="noopener"
+              class="btn btn-primary">
+              FOLLOW US ON FACEBOOK
+            </a>
+            <a href="https://www.youtube.com/@kittenheavenbd" target="_blank" rel="noopener" class="btn btn-secondary">
+              WATCH ON YOUTUBE
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div> <!-- END VIEW-HOME -->
+
+    <!-- VIEW 2: RESCUE STORIES PAGE -->
+    <div id="view-rescue-stories" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Real Journeys</span>
+            <h2 class="section-title">Rescue Stories</h2>
+            <p class="section-description">Every rescue has a story. Every recovery is a second chance.</p>
+          </div>
+          <div class="stories-grid" id="allRescueStoriesGrid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 3: OUR WORK PAGE -->
+    <div id="view-our-work" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">What We Do</span>
+            <h2 class="section-title">Our Work & Mission</h2>
+            <p class="section-description">Comprehensive care from street rescue to lifelong placement.</p>
+          </div>
+          <div class="work-grid" style="margin-bottom: 4rem;">
+            <div class="work-card">
+              <div class="work-icon-box">01</div>
+              <h3 class="work-card-title">Rescue & Treatment</h3>
+              <p class="work-card-desc">We respond to emergency calls for sick, injured, or trapped cats across Dhaka.
+                Partnering with veterinary surgeons, we deliver urgent diagnostic and clinical treatment.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">02</div>
+              <h3 class="work-card-title">Shelter & Care</h3>
+              <p class="work-card-desc">Our shelter provides a calm, sanitary, warm environment where animals recover in
+                safety with nutritious meals, daily medical administration, and affection.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">03</div>
+              <h3 class="work-card-title">Street Feeding</h3>
+              <p class="work-card-desc">Our street feeding teams travel through local neighborhoods daily, serving clean
+                food and water to vulnerable street cats and stray dogs who face starvation.</p>
+            </div>
+            <div class="work-card">
+              <div class="work-icon-box">04</div>
+              <h3 class="work-card-title">Foster & Adoption</h3>
+              <p class="work-card-desc">We screen compassionate foster homes for temporary care and manage thorough
+                adoption matches to transition rescued cats into permanent, loving families.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 4: UNIFIED ADOPT & FOSTER PAGE -->
+    <div id="view-adopt-foster" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Open Your Heart & Home</span>
+            <h2 class="section-title">Adopt & Foster</h2>
+            <p class="section-description">Whether giving a rescued cat a permanent home or temporary care, you are
+              saving a life.</p>
+          </div>
+
+          <!-- Section Filter Tabs -->
+          <div class="adopt-foster-toggle-bar">
+            <button class="toggle-btn-pill active" data-tab="all">Show All</button>
+            <button class="toggle-btn-pill" data-tab="adopt">Adoptable Cats</button>
+            <button class="toggle-btn-pill" data-tab="foster">Foster Program</button>
+          </div>
+
+          <!-- PART A: ADOPTABLE CATS DIRECTORY -->
+          <div id="adopt-section-part">
+            <div style="margin-bottom: 2rem;">
+              <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Adoptable Cats</h3>
+              <p style="color: var(--text-muted);">Meet our healthy, fully recovered rescued cats ready for permanent
+                adoption.</p>
+            </div>
+            <div class="adoption-grid" id="adoptionGrid">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <div class="adopt-foster-section-divider"></div>
+
+          <!-- PART B: FOSTER PROGRAM SECTION -->
+          <div id="foster-section-part">
+            <div class="section-title-wrap" style="margin-bottom:2rem;">
+              <span class="section-subtitle">Temporary Care, Lifelong Impact</span>
+              <h2 class="section-title" style="font-size:2.2rem;">You Don't Have to Adopt Forever to Save a Life.</h2>
+              <p class="section-description">Foster care provides a safe temporary haven for rescued cats while they
+                recover and await forever families.</p>
+            </div>
+
+            <!-- Foster Pricing Highlight Card -->
+            <div class="foster-price-card" style="background: linear-gradient(135deg, #FFF9F6 0%, #FFF2EE 100%); border: 1.5px solid rgba(233, 101, 69, 0.25); border-radius: var(--radius-md); padding: 1.5rem 2rem; margin-bottom: 2.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; box-shadow: var(--shadow-sm);">
+              <div>
+                <span class="badge-chip" style="background: var(--accent-primary); color: #ffffff; margin-bottom: 0.5rem; display: inline-block;">Cat Boarding & Foster Rate</span>
+                <h3 style="font-size: 1.4rem; color: var(--text-main); margin-bottom: 0.35rem;">Cat Foster Charge</h3>
+                <p style="color: var(--text-muted); font-size: 0.925rem; margin: 0;">Includes safe indoor lodging, daily nutritious food, clean environment, veterinary oversight & affection.</p>
+              </div>
+              <div style="text-align: right; flex-shrink: 0;">
+                <div style="font-size: 2.4rem; font-weight: 800; color: var(--accent-primary); line-height: 1;">৳500 <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">/ Day</span></div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.35rem; font-weight: 500;">500 BDT per day</div>
+              </div>
+            </div>
+
+            <!-- Foster Step Flow -->
+            <div class="foster-flow">
+              <div class="flow-step-card">
+                <div class="step-number">1</div>
+                <h4 style="margin-bottom:0.4rem;">Rescue</h4>
+                <p style="font-size:0.85rem; color:var(--text-muted);">An animal in distress is safely rescued by Kitten
+                  Heaven.</p>
+              </div>
+              <div class="flow-step-card">
+                <div class="step-number">2</div>
+                <h4 style="margin-bottom:0.4rem;">Foster Care</h4>
+                <p style="font-size:0.85rem; color:var(--text-muted);">A temporary home provides safety, warmth and
+                  socialization.</p>
+              </div>
+              <div class="flow-step-card">
+                <div class="step-number">3</div>
+                <h4 style="margin-bottom:0.4rem;">Treatment & Recovery</h4>
+                <p style="font-size:0.85rem; color:var(--text-muted);">Vet care and daily nourishment restore full
+                  health.</p>
+              </div>
+              <div class="flow-step-card">
+                <div class="step-number">4</div>
+                <h4 style="margin-bottom:0.4rem;">Adoption</h4>
+                <p style="font-size:0.85rem; color:var(--text-muted);">The cat transitions smoothly into a permanent
+                  home.</p>
+              </div>
+            </div>
+
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:2rem; margin-top:3rem;">
+              <div
+                style="background:var(--white); border:1px solid var(--border-light); padding:2rem; border-radius:var(--radius-md);">
+                <h3 style="margin-bottom:0.85rem; font-size:1.4rem;">What a Foster Home Provides</h3>
+                <ul class="bullet-list">
+                  <li>A safe, indoor room or quiet space</li>
+                  <li>Daily food, water, and clean litter maintenance</li>
+                  <li>Love, affection, and basic socialization</li>
+                  <li>Monitoring progress during recovery</li>
+                </ul>
+              </div>
+              <div style="background:var(--tint-warm); padding:2rem; border-radius:var(--radius-md);">
+                <h3 style="margin-bottom:0.85rem; font-size:1.4rem;">What Kitten Heaven Provides</h3>
+                <ul class="bullet-list">
+                  <li>Complete veterinary care & medicines</li>
+                  <li>Cat food & essential supplies if needed</li>
+                  <li>24/7 volunteer support & guidance</li>
+                  <li>Managing adoption applications and placements</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="text-align:center; margin-top:3rem;">
+              <button class="btn btn-primary" onclick="openFosterForm()">APPLY / BOOK CAT FOSTER (৳500/DAY)</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 5: STREET FEEDING PAGE -->
+    <div id="view-street-feeding" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Street Care</span>
+            <h2 class="section-title">Street Feeding Program</h2>
+            <p class="section-description">A hungry animal should not have to wonder where its next meal will come from.
+            </p>
+          </div>
+
+          <div
+            style="display:grid; grid-template-columns: 1fr 1fr; gap:2.5rem; align-items:center; margin-bottom:3.5rem;">
+            <div>
+              <h3 style="margin-bottom: 1rem;">Caring for Both Cats & Dogs on Our Streets</h3>
+              <p style="margin-bottom: 1.25rem;">
+                Stray animals in urban Bangladesh endure harsh conditions, traffic hazards, and extreme food insecurity.
+                Kitten Heaven's dedicated feeding initiative distributes freshly prepared, wholesome food directly to
+                stray cat colonies and community dogs.
+              </p>
+              <p style="margin-bottom: 1.5rem;">
+                Beyond filling hungry bellies, regular feeding routes allow our team to monitor street animal health,
+                identify emergency injury cases early, and build trust within local neighborhoods.
+              </p>
+              <a href="#donate" class="btn btn-primary" data-view-link="donate">SUPPORT FEEDING RUNS</a>
+            </div>
+            <div style="border-radius: var(--radius-lg); overflow:hidden; box-shadow: var(--shadow-md);">
+              <img src="images/street_cat_feeding.jpg" alt="Street Cat Feeding"
+                style="width:100%; height:360px; object-fit:cover;" />
+            </div>
+          </div>
+
+          <div class="feeding-grid">
+            <div class="feeding-card">
+              <div class="feeding-img-box">
+                <img src="images/street_cat_feeding.jpg" alt="Street Cats Feeding"
+                  style="width:100%; height:100%; object-fit:cover;" />
+              </div>
+              <div class="feeding-card-body">
+                <h3>Community Street Cats Feeding</h3>
+                <p>Nutritious cat food and fresh water served daily at street territory stops.</p>
+              </div>
+            </div>
+            <div class="feeding-card">
+              <div class="feeding-img-box">
+                <img src="images/street_dog_feeding.jpg" alt="Street Dogs Feeding"
+                  style="width:100%; height:100%; object-fit:cover;" />
+              </div>
+              <div class="feeding-card-body">
+                <h3>Vulnerable Street Dogs Feeding</h3>
+                <p>Ensuring stray dogs receive regular meals, kindness, and emergency health checks.</p>
+              </div>
+            </div>
+            <div class="feeding-card">
+              <div class="feeding-img-box">
+                <img src="images/shelter_care.jpg" alt="Community Feeding Volunteers"
+                  style="width:100%; height:100%; object-fit:cover;" />
+              </div>
+              <div class="feeding-card-body">
+                <h3>Volunteer Feeding Teams</h3>
+                <p>Dedicated local volunteers organizing daily neighborhood routes.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 6: VOLUNTEER & PAID POSITIONS -->
+    <div id="view-volunteer" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Join Our Team & Mission</span>
+            <h2 class="section-title">Work With Us or Volunteer</h2>
+            <p class="section-description">Whether applying for a paid shelter position or offering volunteer hours,
+              your help saves lives.</p>
+          </div>
+
+          <!-- AREA A: PAID POSITION JOB CIRCULAR -->
+          <div id="jobCircularContent">
+            <!-- Job Circular details dynamically rendered from config.js -->
+          </div>
+
+          <!-- AREA B: VOLUNTEER WITH US -->
+          <div
+            style="background: var(--bg-secondary); border-radius: var(--radius-lg); padding: 3rem 2rem; text-align: center; max-width: 880px; margin: 0 auto;">
+            <span class="section-subtitle">Voluntary Contribution</span>
+            <h2 style="margin-bottom: 0.85rem;">Give Your Time. Make a Difference.</h2>
+            <p style="max-width: 640px; margin: 0 auto 1.75rem auto; color: var(--text-muted); font-size: 1.05rem;">
+              Not looking for employment but want to support? You can volunteer your time across feeding runs, shelter
+              help, photography, social media, or rescue transport.
+            </p>
+            <div style="display:flex; justify-content:center; gap:0.75rem; flex-wrap:wrap; margin-bottom: 1.75rem;">
+              <span class="badge-chip">Shelter Assistance</span>
+              <span class="badge-chip">Street Feeding</span>
+              <span class="badge-chip">Rescue Support</span>
+              <span class="badge-chip">Photography</span>
+              <span class="badge-chip">Social Media</span>
+              <span class="badge-chip">Transport</span>
+            </div>
+            <button class="btn btn-primary" onclick="openVolunteerForm()">BECOME A VOLUNTEER</button>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 7: OUR SHELTER PAGE -->
+    <div id="view-shelter" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Sanctuary</span>
+            <h2 class="section-title">Our Shelter</h2>
+            <p class="section-description">A quiet, warm place where rescued cats find safety, medical recovery, and
+              comfort.</p>
+          </div>
+
+          <div
+            style="display:grid; grid-template-columns: 1fr 1fr; gap:2.5rem; align-items:center; margin-bottom:3.5rem;">
+            <div>
+              <h3 style="margin-bottom: 1rem;">A Safe Place to Heal</h3>
+              <p style="margin-bottom: 1.25rem;">
+                Rescued animals often arrive traumatized, injured, or sick. Our shelter provides an unhurried,
+                stress-free space where each cat receives individualized care, warm beds, clean environment, and
+                continuous affection.
+              </p>
+              <h4 style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Daily Shelter Routines</h4>
+              <ul class="bullet-list">
+                <li><strong>Feeding:</strong> Scheduled wholesome nutrition twice daily</li>
+                <li><strong>Cleaning:</strong> Constant hygiene and sanitized litter care</li>
+                <li><strong>Medicine:</strong> Prescribed antibiotics, wound treatment & routine vaccinations</li>
+                <li><strong>Basic Care:</strong> Gentle grooming, physical therapy & play time</li>
+              </ul>
+            </div>
+            <div style="border-radius: var(--radius-lg); overflow:hidden; box-shadow: var(--shadow-lg);">
+              <img src="images/shelter_care.jpg" alt="Shelter Sanctuary Room"
+                style="width:100%; height:380px; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 8: ABOUT US PAGE -->
+    <div id="view-about" class="view-section">
+      <section class="section-padding">
+        <div class="container" style="max-width: 860px;">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Our Journey</span>
+            <h2 class="section-title">About Kitten Heaven</h2>
+            <p class="section-description">Founded out of deep compassion for Bangladesh's vulnerable street and
+              abandoned animals.</p>
+          </div>
+
+          <div
+            style="background:var(--white); border:1px solid var(--border-light); padding:2.5rem; border-radius:var(--radius-lg); font-size:1.05rem; line-height:1.75; color:var(--text-muted); margin-bottom:2.5rem;">
+            <h3 style="color:var(--text-main); margin-bottom:0.85rem;">Our Story</h3>
+            <p style="margin-bottom:1.25rem;">
+              [REAL KITTEN HEAVEN STORY WILL BE ADDED]
+            </p>
+            <p style="margin-bottom:1.25rem;">
+              Kitten Heaven was established to bridge the gap in animal welfare across Bangladesh by offering immediate
+              emergency rescue, veterinary stabilization, safe shelter accommodation, and street feeding programs for
+              animals with nowhere else to turn.
+            </p>
+
+            <h3 style="color:var(--text-main); margin-top:1.75rem; margin-bottom:0.85rem;">Our Mission</h3>
+            <p>
+              To rescue, care for and protect vulnerable animals and give them a better chance at life through
+              compassionate treatment, structured street feeding, foster networks, and responsible permanent adoption.
+            </p>
+          </div>
+
+          <div style="text-align:center;">
+            <a href="https://www.facebook.com/p/Kitten-Heaven-100079653400951/" target="_blank" rel="noopener"
+              class="btn btn-primary">
+              FOLLOW KITTTEN HEAVEN ON FACEBOOK
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 9: GALLERY PAGE -->
+    <div id="view-gallery" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Moments of Hope</span>
+            <h2 class="section-title">Photo Gallery</h2>
+            <p class="section-description">Browse real moments from our rescues, shelter life, and street feeding runs.
+            </p>
+          </div>
+
+          <div class="gallery-filter-bar">
+            <button class="filter-chip active" data-filter="all">All</button>
+            <button class="filter-chip" data-filter="Rescue">Rescue</button>
+            <button class="filter-chip" data-filter="Treatment">Treatment</button>
+            <button class="filter-chip" data-filter="Shelter">Shelter</button>
+            <button class="filter-chip" data-filter="Street Feeding">Street Feeding</button>
+            <button class="filter-chip" data-filter="Adoption">Adoption</button>
+          </div>
+
+          <div class="gallery-grid" id="galleryGrid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 10: VIDEOS PAGE -->
+    <div id="view-videos" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Watch Our Journey</span>
+            <h2 class="section-title">YouTube Videos</h2>
+            <p class="section-description">Watch real rescue documentation and street feeding stories on our YouTube
+              channel.</p>
+          </div>
+
+          <div
+            style="background:var(--white); border:1px solid var(--border-light); padding:2.5rem; border-radius:var(--radius-lg); text-align:center; max-width:780px; margin:0 auto;">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="#FF0000" style="margin-bottom:0.85rem;">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+            <h3 style="margin-bottom:0.65rem;">Official Kitten Heaven YouTube Channel</h3>
+            <p style="color:var(--text-muted); margin-bottom:1.35rem;">
+              Subscribe to watch complete rescue episodes, before & after recoveries, and live street feeding coverage.
+            </p>
+            <a href="https://www.youtube.com/@kittenheavenbd" target="_blank" rel="noopener" class="btn btn-primary">
+              VISIT YOUTUBE CHANNEL
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 11: CONTACT PAGE -->
+    <div id="view-contact" class="view-section">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Get in Touch</span>
+            <h2 class="section-title">Contact Kitten Heaven</h2>
+            <p class="section-description">Have a question, need assistance, or want to reach out to our team?</p>
+          </div>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:2.5rem;">
+            <div
+              style="background:var(--white); border:1px solid var(--border-light); padding:2.25rem; border-radius:var(--radius-md);">
+              <h3 style="margin-bottom:1.25rem;">Direct Contact Info</h3>
+
+              <div style="display:flex; flex-direction:column; gap:1.15rem;">
+                <div>
+                  <div style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:600;">
+                    Phone Number</div>
+                  <div class="org-phone-text" style="font-size:1.05rem; font-weight:600;">+880 1XXXXXXXXX</div>
+                </div>
+                <div>
+                  <div style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:600;">
+                    Email Address</div>
+                  <div class="org-email-text" style="font-size:1.05rem; font-weight:600;">contact@kittenheavenbd.org
+                  </div>
+                </div>
+                <div>
+                  <div style="font-size:0.75rem; text-transform:uppercase; color:var(--text-muted); font-weight:600;">
+                    General Location</div>
+                  <div style="font-size:1.05rem; font-weight:600;">Dhaka, Bangladesh</div>
+                </div>
+              </div>
+
+              <div style="margin-top:2.25rem; padding-top:1.25rem; border-top:1px solid var(--border-light);">
+                <h4 style="margin-bottom:0.85rem;">Quick Action Links</h4>
+                <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                  <a href="#donate" class="btn btn-primary btn-sm" data-view-link="donate">DONATE</a>
+                  <a href="#adopt-foster" class="btn btn-secondary btn-sm" data-view-link="adopt-foster">ADOPT &
+                    FOSTER</a>
+                  <a href="#volunteer" class="btn btn-secondary btn-sm" data-view-link="volunteer">VOLUNTEER</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="background:var(--white); border:1px solid var(--border-light); padding:2.25rem; border-radius:var(--radius-md);">
+              <h3 style="margin-bottom:1.25rem;">Send Us a Message</h3>
+              <form onsubmit="handleFormSubmit(event, 'Message sent successfully! We will respond shortly.')">
+                <div class="form-group">
+                  <label class="form-label">Full Name *</label>
+                  <input type="text" class="form-input" required placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Phone or Email *</label>
+                  <input type="text" class="form-input" required placeholder="Contact info" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Message *</label>
+                  <textarea class="form-textarea" rows="4" required placeholder="How can we help?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">GET IN TOUCH</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 12: DONATION DEDICATED PAGE -->
+    <div id="view-donate" class="view-section">
+      <section class="section-padding">
+        <div class="container donate-page-box">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">Support Our Mission</span>
+            <h2 class="section-title">Support Kitten Heaven</h2>
+            <p class="section-description">Every contribution, big or small, helps us continue our rescue and care for
+              vulnerable animals.</p>
+          </div>
+
+          <!-- bKash & Nagad Payment Cards -->
+          <div class="payment-methods-grid">
+
+            <!-- bKash Card -->
+            <div class="payment-card">
+              <span class="payment-logo-badge badge-bkash">bKash</span>
+              <div class="payment-number-label">bKash Personal Number</div>
+              <div class="payment-number bkash-num-text">01XXXXXXXXX</div>
+              <button class="btn btn-primary btn-sm btn-full"
+                onclick="copyToClipboard(window.KITTEN_HEAVEN_CONFIG.org.bkashNumber, 'bKash')">
+                COPY NUMBER
+              </button>
+              <div style="margin-top:1.25rem;">
+                <div class="qr-placeholder-box">[bKASH QR CODE]</div>
+              </div>
+            </div>
+
+            <!-- Nagad Card -->
+            <div class="payment-card">
+              <span class="payment-logo-badge badge-nagad">Nagad</span>
+              <div class="payment-number-label">Nagad Personal Number</div>
+              <div class="payment-number nagad-num-text">01XXXXXXXXX</div>
+              <button class="btn btn-primary btn-sm btn-full"
+                onclick="copyToClipboard(window.KITTEN_HEAVEN_CONFIG.org.nagadNumber, 'Nagad')">
+                COPY NUMBER
+              </button>
+              <div style="margin-top:1.25rem;">
+                <div class="qr-placeholder-box">[NAGAD QR CODE]</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- How to Donate Steps -->
+          <div class="donate-instructions">
+            <h3>How to Donate</h3>
+            <ol class="instructions-list">
+              <li>Open your bKash or Nagad mobile app on your phone.</li>
+              <li>Select <strong>Send Money</strong> option.</li>
+              <li>Enter the personal number shown above and input your donation amount.</li>
+              <li>Keep your transaction ID / reference for your records.</li>
+              <li>Contact Kitten Heaven through Facebook Messenger if confirmation is needed.</li>
+            </ol>
+            <div style="margin-top:1.75rem; text-align:center;">
+              <a href="https://www.facebook.com/p/Kitten-Heaven-100079653400951/" target="_blank" rel="noopener"
+                class="btn btn-secondary">
+                CONTACT US ON FACEBOOK
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- GLOBAL MODAL DIALOG BACKDROP -->
+  <div class="modal-backdrop" id="globalModalBackdrop">
+    <div class="modal-content-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div id="modalDynamicContent">
+        <!-- Injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="margin-bottom:0.5rem; overflow:hidden;">
+            <img src="images/Footer Logo.png" alt="Kitten Heaven Logo" class="footer-logo-img"
+              style="height:160px; margin-top:-10px; margin-bottom:-35px; margin-left: -22px; width:auto;" />
+          </div>
+          <p class="footer-desc">
+            Bangladesh-based animal rescue and shelter organization dedicated to saving sick, injured, and street
+            animals through treatment, shelter care, adoption, and daily feeding programs.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link" data-view-link="home">Home</a></li>
+            <li><a href="#rescue-stories" class="footer-link" data-view-link="rescue-stories">Rescue Stories</a></li>
+            <li><a href="#our-work" class="footer-link" data-view-link="our-work">Our Work</a></li>
+            <li><a href="#adopt-foster" class="footer-link" data-view-link="adopt-foster">Adopt & Foster</a></li>
+            <li><a href="#volunteer" class="footer-link" data-view-link="volunteer">Volunteer & Jobs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">About</h4>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link" data-view-link="about">About Us</a></li>
+            <li><a href="#shelter" class="footer-link" data-view-link="shelter">Our Shelter</a></li>
+            <li><a href="#gallery" class="footer-link" data-view-link="gallery">Gallery</a></li>
+            <li><a href="#videos" class="footer-link" data-view-link="videos">Videos</a></li>
+            <li><a href="#contact" class="footer-link" data-view-link="contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Donate & Social</h4>
+          <ul class="footer-links">
+            <li><a href="#donate" class="footer-link" data-view-link="donate">bKash: <span
+                  class="bkash-num-text">01XXXXXXXXX</span></a></li>
+            <li><a href="#donate" class="footer-link" data-view-link="donate">Nagad: <span
+                  class="nagad-num-text">01XXXXXXXXX</span></a></li>
+            <li><a href="https://www.facebook.com/p/Kitten-Heaven-100079653400951/" target="_blank" rel="noopener"
+                class="footer-link">Facebook Page</a></li>
+            <li><a href="https://www.youtube.com/@kittenheavenbd" target="_blank" rel="noopener"
+                class="footer-link">YouTube Channel</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Kitten Heaven. All rights reserved.</div>
+        <div style="display:flex; gap:1.25rem;">
+          <a href="#donate" data-view-link="donate" style="color:var(--accent-primary); font-weight:600;">Donate Now</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
